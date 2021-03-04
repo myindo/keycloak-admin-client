@@ -464,7 +464,7 @@ Note: Ids are sent as clientScopeId or clientId and mapperId everything else is 
 |-----|:-------------:|:---------:|
 | Create a new user Username must be unique. | createUser | ✔️ |
 | Get users Returns a list of users, filtered according to query parameters | getUsers | ✔️ |
-| GET /{realm}/users/count | | ❌ |
+| GET /{realm}/users/count | | ✔ |
 | Get representation of the user | getUser | ️️️✔️ |
 | Update the user | updateUser | ️️️✔️ |
 | Update partial data for the user | updatePartialUser | ️️️✔️ |
@@ -485,7 +485,7 @@ Note: Ids are sent as clientScopeId or clientId and mapperId everything else is 
 | Get offline sessions associated with the user and client | | ❌ |
 | Remove TOTP from the user | | ❌ |
 | Set up a new password for the user. | resetUserPassword | ✔️ |
-| Send an email-verification email to the user An email contains a link the user can click to verify their email address. | | ❌ |
+| Send an email-verification email to the user An email contains a link the user can click to verify their email address. | | ✔ |
 | Get sessions associated with the user | | ❌ |
 
  ## [Root]()
